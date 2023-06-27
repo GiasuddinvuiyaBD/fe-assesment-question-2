@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=Dosis:wght@300&family=Fasthand&family=Lobster&family=Open+Sans&family=PT+Sans+Narrow&family=PT+Serif&family=Quicksand&family=Raleway&display=swap');
+.container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.inputParent {
+    width: 330px;
+    margin: 190px 0 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 27px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #bbbaba;
+}
+.div h2 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    float: left;
+}
+
+::placeholder
+{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    color : gray
+}
+
+input {
+    font-size: 1.2rem;
+    width: 180px;
+    border-radius: 4px;
+    padding: 7px 6px;
+    size: 65px;
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+    overflow: hidden;
+   font-size: 16px;
+}
+
+/* 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+*/

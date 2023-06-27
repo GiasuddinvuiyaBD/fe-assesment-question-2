@@ -7,8 +7,8 @@ let navLogo = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LeetCod
 const Navigation = () => 
 {
     return(
-        <>
-        <Navbar bg="light" data-bs-theme="dark" >
+      <>
+       <Navbar bg="light" data-bs-theme="dark" >
           <Container>
             <Navbar.Brand >
                 <img style={style} src={navLogo} alt="img is not found" />

@@ -1,5 +1,7 @@
-
+import {Button,Row, Col, Container, Form,Card} from 'react-bootstrap';
 import React, { useEffect, useRef } from "react";
+import Navigation from '../src/pages/Navbar';
+
 
 function PhoneForm() {
   const inputRef = useRef(null);
@@ -48,18 +50,21 @@ function PhoneForm() {
   };
 
   return (
-    <div className="container" style={{'marginTop' : '20px'}}>
-      <label htmlFor="phone">Phone Number:</label>
-      <input
-        type="text"
-        id="phone"
-        onInput={phoneNumberFormat}
-        ref={inputRef}
-      />
-      <div>
-         <label htmlFor="phone">(123) 456-7890</label>   
+     <>
+      <Navigation />
+      <div className="container">
+        <label htmlFor="phone">Phone Number:</label>
+        <input
+          type="text"
+          id="phone"
+          onInput={phoneNumberFormat}
+          ref={inputRef}
+        />
+        <div>
+          <label htmlFor="phone">(123) 456-7890</label>   
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
